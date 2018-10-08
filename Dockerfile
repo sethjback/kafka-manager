@@ -1,7 +1,7 @@
 FROM hseeberger/scala-sbt 
 
 ENV ZK_HOSTS=localhost:2181 \ 
-    KM_VERSION=1.2.7 
+    KM_VERSION=1.3.3.18
 
 RUN mkdir -p /tmp && \
     cd /tmp && \
